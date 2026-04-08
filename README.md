@@ -1,5 +1,7 @@
 # InsectExpress
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19467801.svg)](https://doi.org/10.5281/zenodo.19467801)
+
 InsectExpress is a multimodal framework for cross-species prediction of tissue-resolved gene expression in insects.
 
 This repository is the English public companion release for the InsectExpress manuscript and includes the released model checkpoint, processed paper-facing data tables, exported figures, supplementary tables, and figure-generation scripts.
@@ -22,6 +24,7 @@ This repository is the English public companion release for the InsectExpress ma
 ## Quick links
 
 - Manuscript: `manuscript/InsectExpress_manuscript.docx`
+- Zenodo archive: `https://doi.org/10.5281/zenodo.19467801`
 - Main checkpoint: `models/insectexpress_seed42_checkpoint.pt`
 - Main paper figures: `results/paper/figures/`
 - Supplementary tables: `results/paper/Table_S1_species_genome_info.csv` to `results/paper/Table_S4_model_hyperparameters.csv`
@@ -98,6 +101,7 @@ If you use this repository, please cite:
 ```text
 InsectExpress: multimodal cross-species prediction of tissue-resolved gene expression in insects.
 GitHub repository: https://github.com/hjd20030114-blip/InsectExpress
+Zenodo archive: https://doi.org/10.5281/zenodo.19467801
 ```
 
 ## License

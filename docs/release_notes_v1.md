@@ -31,3 +31,4 @@ InsectExpress manuscript.
 - File and directory naming in the public package is English only.
 - The current repository license is a research-release license with all rights
   reserved unless a future revision replaces it.
+- The archived release DOI is `10.5281/zenodo.19467801`.

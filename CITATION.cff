@@ -4,6 +4,7 @@ message: "If you use this repository, please cite the InsectExpress manuscript a
 type: software
 version: "v1.0.0"
 date-released: 2026-04-08
+doi: 10.5281/zenodo.19467801
 authors:
   - family-names: "HJD"
 repository-code: "https://github.com/hjd20030114-blip/InsectExpress"
