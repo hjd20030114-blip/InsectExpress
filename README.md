@@ -15,7 +15,7 @@ This repository is the English public companion release for the InsectExpress ma
 ## Preview
 
 <div align="center">
-  <img src="results/paper/figures/fig1c_architecture.png" alt="InsectExpress architecture" width="46%">
+  <img src="results/paper/figures/fig_external_validation_true.png" alt="InsectExpress external validation" width="46%">
   <img src="results/paper/figures/fig2_v2_benchmark.png" alt="InsectExpress benchmark" width="46%">
 </div>
 
