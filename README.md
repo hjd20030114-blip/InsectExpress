@@ -27,6 +27,8 @@ This repository is the English public companion release for the InsectExpress ma
 - Supplementary tables: `results/paper/Table_S1_species_genome_info.csv` to `results/paper/Table_S4_model_hyperparameters.csv`
 - External validation release: `results/external_validation_true/`
 - Figure scripts: `scripts/paper/`
+- Figure reproduction guide: `docs/reproduce_main_figures.md`
+- GitHub about metadata template: `docs/github_about_metadata.md`
 - Release notes: `docs/release_notes_v1.md`
 
 ## Repository layout
@@ -84,6 +86,8 @@ Example:
 python scripts/paper/plot_fig6_ism_interpretability.py
 python scripts/paper/plot_fig_external_validation_true.py
 ```
+
+A figure-by-figure command guide is provided in `docs/reproduce_main_figures.md`.
 
 ## Citation
 
