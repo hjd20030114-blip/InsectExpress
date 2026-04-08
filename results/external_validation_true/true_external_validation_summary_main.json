@@ -1,0 +1,269 @@
+{
+  "checkpoint": "models/insectexpress_seed42_checkpoint.pt",
+  "device": "released_summary",
+  "unknown_species_protocol": "mean_species_embedding + zero_species_tissue_bias",
+  "prepared_expression": {
+    "spodoptera_frugiperda": {
+      "expression_file": "data/processed/spodoptera_frugiperda_expression_aligned.tsv",
+      "n_genes": 16784,
+      "tissues": {
+        "Adult_Brain": 0,
+        "Adult_Head": 0,
+        "Adult_Midgut": 0,
+        "Adult_Hindgut": 0,
+        "Adult_FatBody": 0,
+        "Adult_MalpighianTubule": 0,
+        "Adult_Carcass": 0,
+        "Adult_Ovary": 16784,
+        "Adult_Testis": 16784,
+        "Larval_Hindgut": 0,
+        "Larval_FatBody": 16784,
+        "Larval_MalpighianTubule": 0,
+        "Larval_Midgut": 16784,
+        "Larval_Carcass": 0
+      },
+      "reused": true
+    },
+    "helicoverpa_armigera": {
+      "species": "helicoverpa_armigera",
+      "expression_file": "data/processed/helicoverpa_armigera_expression_aligned.tsv",
+      "n_genes": 16926,
+      "tissues": {
+        "Adult_Brain": 16926,
+        "Adult_Head": 16926,
+        "Adult_Midgut": 16926,
+        "Adult_Hindgut": 0,
+        "Adult_FatBody": 16926,
+        "Adult_MalpighianTubule": 16926,
+        "Adult_Carcass": 16926,
+        "Adult_Ovary": 16926,
+        "Adult_Testis": 0,
+        "Larval_Hindgut": 0,
+        "Larval_FatBody": 0,
+        "Larval_MalpighianTubule": 0,
+        "Larval_Midgut": 0,
+        "Larval_Carcass": 0
+      },
+      "note": "Independent Helicoverpa armigera tissue-expression matrix aligned from local GEO-derived resources (including GSE190405 and GSE86914) after tissue harmonization.",
+      "reused": true
+    }
+  },
+  "results": {
+    "spodoptera_frugiperda": {
+      "species": "spodoptera_frugiperda",
+      "display_name": "Spodoptera frugiperda",
+      "source_note": "Independent RNA-seq TPM matrix aggregated from explicit control / untreated runs.",
+      "audit": {
+        "species": "spodoptera_frugiperda",
+        "n_expression_genes": 16784,
+        "n_genes_in_gff": 16769,
+        "n_samples_built": 16308,
+        "missing_gene": 476,
+        "missing_chrom": 0,
+        "missing_sequence": 0
+      },
+      "expression_mode": "absolute",
+      "primary_tissues": [
+        "Adult_Ovary",
+        "Larval_FatBody",
+        "Larval_Midgut"
+      ],
+      "all_mapped_tissues": [
+        "Adult_Brain",
+        "Adult_Ovary",
+        "Adult_Testis",
+        "Larval_FatBody",
+        "Larval_Midgut"
+      ],
+      "primary_metrics": {
+        "evaluation_mode": "direct_absolute_expression",
+        "overall_pearson": 0.541944827019141,
+        "overall_spearman": 0.5558786603581356,
+        "n_valid_pairs": 48924,
+        "gene_profile_pearson_mean": 0.1059658989809786,
+        "gene_profile_pearson_median": 0.24792652435481494,
+        "top1_tissue_match": 0.47277409860191316,
+        "per_tissue": {
+          "Adult_Ovary": {
+            "pearson": 0.6149609217935224,
+            "spearman": 0.6420790440461493,
+            "n_genes": 16308
+          },
+          "Larval_FatBody": {
+            "pearson": 0.48231345250548413,
+            "spearman": 0.5595259961130742,
+            "n_genes": 16308
+          },
+          "Larval_Midgut": {
+            "pearson": 0.5782750153949343,
+            "spearman": 0.6051938280996921,
+            "n_genes": 16308
+          }
+        }
+      },
+      "all_tissue_metrics": {
+        "evaluation_mode": "direct_absolute_expression",
+        "overall_pearson": 0.53091473101828,
+        "overall_spearman": 0.5521881059192908,
+        "n_valid_pairs": 65232,
+        "gene_profile_pearson_mean": 0.15735346408648568,
+        "gene_profile_pearson_median": 0.23359232046143785,
+        "top1_tissue_match": 0.39342653912190334,
+        "per_tissue": {
+          "Adult_Brain": {
+            "pearson": NaN,
+            "spearman": NaN,
+            "n_genes": 0
+          },
+          "Adult_Ovary": {
+            "pearson": 0.6149609217935224,
+            "spearman": 0.6420790440461493,
+            "n_genes": 16308
+          },
+          "Adult_Testis": {
+            "pearson": 0.4960615824646153,
+            "spearman": 0.5275595433325636,
+            "n_genes": 16308
+          },
+          "Larval_FatBody": {
+            "pearson": 0.48231345250548413,
+            "spearman": 0.5595259961130742,
+            "n_genes": 16308
+          },
+          "Larval_Midgut": {
+            "pearson": 0.5782750153949343,
+            "spearman": 0.6051938280996921,
+            "n_genes": 16308
+          }
+        }
+      },
+      "prediction_file": "results/external_validation_true/spodoptera_frugiperda_predictions.tsv"
+    },
+    "helicoverpa_armigera": {
+      "species": "helicoverpa_armigera",
+      "display_name": "Helicoverpa armigera",
+      "source_note": "Independent Helicoverpa armigera tissue-expression matrix aligned from GEO-derived resources (including GSE190405 and GSE86914) after tissue harmonization.",
+      "audit": {
+        "species": "helicoverpa_armigera",
+        "n_expression_genes": 16926,
+        "n_genes_in_gff": 16749,
+        "n_samples_built": 16749,
+        "missing_gene": 177,
+        "missing_chrom": 0,
+        "missing_sequence": 0
+      },
+      "expression_mode": "absolute",
+      "primary_tissues": [
+        "Adult_Brain",
+        "Adult_Head",
+        "Adult_Midgut",
+        "Adult_FatBody",
+        "Adult_MalpighianTubule",
+        "Adult_Carcass",
+        "Adult_Ovary"
+      ],
+      "all_mapped_tissues": [
+        "Adult_Brain",
+        "Adult_Head",
+        "Adult_Midgut",
+        "Adult_FatBody",
+        "Adult_MalpighianTubule",
+        "Adult_Carcass",
+        "Adult_Ovary"
+      ],
+      "primary_metrics": {
+        "evaluation_mode": "direct_absolute_expression",
+        "overall_pearson": 0.6115891377894804,
+        "overall_spearman": 0.6490388737818764,
+        "n_valid_pairs": 117243,
+        "gene_profile_pearson_mean": 0.38321638524405965,
+        "gene_profile_pearson_median": 0.47590956592885675,
+        "top1_tissue_match": 0.35082691503970387,
+        "per_tissue": {
+          "Adult_Brain": {
+            "pearson": 0.6400058926561445,
+            "spearman": 0.6744237448124075,
+            "n_genes": 16749
+          },
+          "Adult_Head": {
+            "pearson": 0.5745374426431668,
+            "spearman": 0.6193321583234996,
+            "n_genes": 16749
+          },
+          "Adult_Midgut": {
+            "pearson": 0.5901516251286513,
+            "spearman": 0.6366017326058034,
+            "n_genes": 16749
+          },
+          "Adult_FatBody": {
+            "pearson": 0.5680194109806266,
+            "spearman": 0.5985645914632406,
+            "n_genes": 16749
+          },
+          "Adult_MalpighianTubule": {
+            "pearson": 0.5997863067080453,
+            "spearman": 0.6512870505285562,
+            "n_genes": 16749
+          },
+          "Adult_Carcass": {
+            "pearson": 0.5873149955096642,
+            "spearman": 0.6259348181996629,
+            "n_genes": 16749
+          },
+          "Adult_Ovary": {
+            "pearson": 0.6912080966681773,
+            "spearman": 0.6969312376372393,
+            "n_genes": 16749
+          }
+        }
+      },
+      "all_tissue_metrics": {
+        "evaluation_mode": "direct_absolute_expression",
+        "overall_pearson": 0.6115891377894804,
+        "overall_spearman": 0.6490388737818764,
+        "n_valid_pairs": 117243,
+        "gene_profile_pearson_mean": 0.38321638524405965,
+        "gene_profile_pearson_median": 0.47590956592885675,
+        "top1_tissue_match": 0.35082691503970387,
+        "per_tissue": {
+          "Adult_Brain": {
+            "pearson": 0.6400058926561445,
+            "spearman": 0.6744237448124075,
+            "n_genes": 16749
+          },
+          "Adult_Head": {
+            "pearson": 0.5745374426431668,
+            "spearman": 0.6193321583234996,
+            "n_genes": 16749
+          },
+          "Adult_Midgut": {
+            "pearson": 0.5901516251286513,
+            "spearman": 0.6366017326058034,
+            "n_genes": 16749
+          },
+          "Adult_FatBody": {
+            "pearson": 0.5680194109806266,
+            "spearman": 0.5985645914632406,
+            "n_genes": 16749
+          },
+          "Adult_MalpighianTubule": {
+            "pearson": 0.5997863067080453,
+            "spearman": 0.6512870505285562,
+            "n_genes": 16749
+          },
+          "Adult_Carcass": {
+            "pearson": 0.5873149955096642,
+            "spearman": 0.6259348181996629,
+            "n_genes": 16749
+          },
+          "Adult_Ovary": {
+            "pearson": 0.6912080966681773,
+            "spearman": 0.6969312376372393,
+            "n_genes": 16749
+          }
+        }
+      },
+      "prediction_file": "results/external_validation_true/helicoverpa_armigera_predictions.tsv"
+    }
+  }
+}

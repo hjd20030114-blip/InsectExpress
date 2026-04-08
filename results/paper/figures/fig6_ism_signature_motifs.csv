@@ -1,0 +1,15 @@
+tissue,sequence,own_score,position,region,prevalence,runner_up_score,runner_up_tissue
+Adult_Brain,AATGAAAGTTAA,3.5164029598236084,1078.0,Proximal downstream,1,0.0,
+Adult_Head,GGTGATAAGATT,1.1697478294372559,870.0,Proximal downstream,2,1.0372576713562012,Adult_Carcass
+Adult_Midgut,TGATAAAGAATC,3.443105936050415,-398.0,Proximal upstream,2,2.2883188724517822,Larval_MalpighianTubule
+Adult_Hindgut,TCTTATCTTATC,1.9956870079040527,3099.0,Distal downstream,1,0.0,
+Adult_FatBody,ATATAATAACGC,5.595710754394531,3966.0,Distal downstream,1,0.0,
+Adult_MalpighianTubule,TAACGCATATGC,5.636575698852539,3972.0,Distal downstream,2,5.538545370101929,Adult_Hindgut
+Adult_Carcass,TATTAAGATAAC,1.7299907207489014,858.0,Proximal downstream,1,0.0,
+Adult_Ovary,ATTATCAATATT,8.29645824432373,-1772.0,Proximal upstream,2,2.998594045639038,Larval_Carcass
+Adult_Testis,TGATATCAGATA,1.4562196731567383,1217.0,Proximal downstream,1,0.0,
+Larval_Hindgut,TGATAAGAAAGA,3.111452102661133,1696.0,Proximal downstream,1,0.0,
+Larval_FatBody,TTTGTCGAGACA,3.55745530128479,1214.0,Proximal downstream,1,0.0,
+Larval_MalpighianTubule,GTTATCTTATCT,9.555818676948547,-56.0,Core promoter,1,0.0,
+Larval_Midgut,TGATAAGGAGTG,10.830230712890625,-33.0,Core promoter,1,0.0,
+Larval_Carcass,AACGTTATCTCT,2.736859083175659,2053.0,Distal downstream,1,0.0,

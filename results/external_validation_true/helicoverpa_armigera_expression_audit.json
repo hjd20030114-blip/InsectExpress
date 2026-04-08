@@ -1,0 +1,23 @@
+{
+  "species": "helicoverpa_armigera",
+  "expression_file": "/home/hjd/RNAi/data/processed/helicoverpa_armigera_expression_aligned.tsv",
+  "n_genes": 16926,
+  "tissues": {
+    "Adult_Brain": 16926,
+    "Adult_Head": 16926,
+    "Adult_Midgut": 16926,
+    "Adult_Hindgut": 0,
+    "Adult_FatBody": 16926,
+    "Adult_MalpighianTubule": 16926,
+    "Adult_Carcass": 16926,
+    "Adult_Ovary": 16926,
+    "Adult_Testis": 0,
+    "Larval_Hindgut": 0,
+    "Larval_FatBody": 0,
+    "Larval_MalpighianTubule": 0,
+    "Larval_Midgut": 0,
+    "Larval_Carcass": 0
+  },
+  "note": "Independent Helicoverpa armigera tissue-expression matrix aligned from local GEO-derived resources (including GSE190405 and GSE86914) after tissue harmonization.",
+  "reused": true
+}

@@ -1,0 +1,227 @@
+{
+  "source_matrix": "data/external/spodoptera_frugiperda/tpm_matrix.txt",
+  "tissues": {
+    "Adult_Brain": {
+      "n_runs": 2,
+      "runs": [
+        "SRR14569375",
+        "SRR14569378"
+      ],
+      "note": "Mapped from larval brain transcriptome as nearest standardized CNS tissue.",
+      "examples": [
+        {
+          "run_accession": "SRR14569378",
+          "study_title": "Full-length transciptome of Spodoptera frugiperda larval brain",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "FAW transcriptome"
+        },
+        {
+          "run_accession": "SRR14569375",
+          "study_title": "Full-length transciptome of Spodoptera frugiperda larval brain",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "FAW transcriptome"
+        }
+      ]
+    },
+    "Adult_Ovary": {
+      "n_runs": 5,
+      "runs": [
+        "SRR36867477",
+        "SRR36867478",
+        "SRR36867479",
+        "SRR36867480",
+        "SRR36867482"
+      ],
+      "note": "Mapped directly from ovary transcriptomes.",
+      "examples": [
+        {
+          "run_accession": "SRR36867480",
+          "study_title": "Transcriptome analysis of the ovary of Spodoptera frugiperda",
+          "sample_title": "MIGS Eukaryotic sample from Spodoptera frugiperda",
+          "sample_alias": "S3"
+        },
+        {
+          "run_accession": "SRR36867482",
+          "study_title": "Transcriptome analysis of the ovary of Spodoptera frugiperda",
+          "sample_title": "MIGS Eukaryotic sample from Spodoptera frugiperda",
+          "sample_alias": "S1"
+        },
+        {
+          "run_accession": "SRR36867478",
+          "study_title": "Transcriptome analysis of the ovary of Spodoptera frugiperda",
+          "sample_title": "MIGS Eukaryotic sample from Spodoptera frugiperda",
+          "sample_alias": "W2"
+        },
+        {
+          "run_accession": "SRR36867477",
+          "study_title": "Transcriptome analysis of the ovary of Spodoptera frugiperda",
+          "sample_title": "MIGS Eukaryotic sample from Spodoptera frugiperda",
+          "sample_alias": "W3"
+        },
+        {
+          "run_accession": "SRR36867479",
+          "study_title": "Transcriptome analysis of the ovary of Spodoptera frugiperda",
+          "sample_title": "MIGS Eukaryotic sample from Spodoptera frugiperda",
+          "sample_alias": "W1"
+        }
+      ]
+    },
+    "Adult_Testis": {
+      "n_runs": 2,
+      "runs": [
+        "SRR28251019",
+        "SRR28251020"
+      ],
+      "note": "Mapped from 5th instar male larval gonads as nearest standardized testis tissue.",
+      "examples": [
+        {
+          "run_accession": "SRR28251019",
+          "study_title": "RNA-Seq of Spodoptera frugiperda hemocytes and fat bodies following viral infection",
+          "sample_title": "Spodoptera frugiperda testis of 5th instar male larvae",
+          "sample_alias": "Spodoptera frugiperda L5 gonads"
+        },
+        {
+          "run_accession": "SRR28251020",
+          "study_title": "RNA-Seq of Spodoptera frugiperda hemocytes and fat bodies following viral infection",
+          "sample_title": "Spodoptera frugiperda testis of 5th instar male larvae",
+          "sample_alias": "Spodoptera frugiperda L5 gonads"
+        }
+      ]
+    },
+    "Larval_FatBody": {
+      "n_runs": 3,
+      "runs": [
+        "SRR13275807",
+        "SRR13275810",
+        "SRR13275811"
+      ],
+      "note": "Mapped directly from explicit larval fat-body control samples.",
+      "examples": [
+        {
+          "run_accession": "SRR13275807",
+          "study_title": "The effects of CPT and AZA against the fat body of Spodoptera frugiperda larvae",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CK-7d-3"
+        },
+        {
+          "run_accession": "SRR13275810",
+          "study_title": "The effects of CPT and AZA against the fat body of Spodoptera frugiperda larvae",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CK-7d-2"
+        },
+        {
+          "run_accession": "SRR13275811",
+          "study_title": "The effects of CPT and AZA against the fat body of Spodoptera frugiperda larvae",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CK-7d-1"
+        }
+      ]
+    },
+    "Larval_Midgut": {
+      "n_runs": 14,
+      "runs": [
+        "SRR13948993",
+        "SRR13948994",
+        "SRR13948995",
+        "SRR24892045",
+        "SRR24892046",
+        "SRR24892047",
+        "SRR25779089",
+        "SRR26199243",
+        "SRR26199244",
+        "SRR26199245",
+        "SRR29856246",
+        "SRR29856247",
+        "SRR29856248",
+        "SRR29856249"
+      ],
+      "note": "Mapped directly from explicit larval midgut/gut control samples.",
+      "examples": [
+        {
+          "run_accession": "SRR25779089",
+          "study_title": "Antibiotics exposure impacts the gut microbiota and influences energy and metabolic homeostasis in Spodoptera frugiperda",
+          "sample_title": "Control-2_RNA",
+          "sample_alias": "GSM5335134"
+        },
+        {
+          "run_accession": "SRR26199244",
+          "study_title": "AcMNPV infection of Spodoptera frugiperda midgut tissue transcriptome.",
+          "sample_title": "Control Group 48h",
+          "sample_alias": "CK48H"
+        },
+        {
+          "run_accession": "SRR13948993",
+          "study_title": "The effects of AZA against the midgut of Spodoptera frugiperda larvae",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CK-M3"
+        },
+        {
+          "run_accession": "SRR24892046",
+          "study_title": "The effects of toosendanin on the larval midgut of Spodoptera frugiperda",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CONTROL-7d-2"
+        },
+        {
+          "run_accession": "SRR29856247",
+          "study_title": "the midgut of FAW after azadirachtin exposure",
+          "sample_title": "Model organism or animal sample from Spodoptera frugiperda",
+          "sample_alias": "FAW_CK_MIDGUT_Rep3"
+        },
+        {
+          "run_accession": "SRR29856249",
+          "study_title": "the midgut of FAW after azadirachtin exposure",
+          "sample_title": "Model organism or animal sample from Spodoptera frugiperda",
+          "sample_alias": "FAW_CK_MIDGUT_Rep1"
+        },
+        {
+          "run_accession": "SRR13948994",
+          "study_title": "The effects of AZA against the midgut of Spodoptera frugiperda larvae",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CK-M2"
+        },
+        {
+          "run_accession": "SRR13948995",
+          "study_title": "The effects of AZA against the midgut of Spodoptera frugiperda larvae",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CK-M1"
+        },
+        {
+          "run_accession": "SRR24892045",
+          "study_title": "The effects of toosendanin on the larval midgut of Spodoptera frugiperda",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CONTROL-7d-3"
+        },
+        {
+          "run_accession": "SRR24892047",
+          "study_title": "The effects of toosendanin on the larval midgut of Spodoptera frugiperda",
+          "sample_title": "Invertebrate sample from Spodoptera frugiperda",
+          "sample_alias": "CONTROL-7d-1"
+        },
+        {
+          "run_accession": "SRR26199245",
+          "study_title": "AcMNPV infection of Spodoptera frugiperda midgut tissue transcriptome.",
+          "sample_title": "Control Group 6h",
+          "sample_alias": "CK6H"
+        },
+        {
+          "run_accession": "SRR26199243",
+          "study_title": "AcMNPV infection of Spodoptera frugiperda midgut tissue transcriptome.",
+          "sample_title": "Control Group 72h",
+          "sample_alias": "CK72H"
+        },
+        {
+          "run_accession": "SRR29856246",
+          "study_title": "the midgut of FAW after azadirachtin exposure",
+          "sample_title": "Model organism or animal sample from Spodoptera frugiperda",
+          "sample_alias": "FAW_CK_MIDGUT_Rep4"
+        },
+        {
+          "run_accession": "SRR29856248",
+          "study_title": "the midgut of FAW after azadirachtin exposure",
+          "sample_title": "Model organism or animal sample from Spodoptera frugiperda",
+          "sample_alias": "FAW_CK_MIDGUT_Rep2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+Category,Parameter,Value
+Input,Sequence window,20 kb (15kb upstream + 5kb downstream of TSS)
+Input,Sequence encoding,"One-hot 4x20000 (A,C,G,T)"
+Input,RNA stability features,16 dimensions
+Input,ESM-2 protein embedding,320 dimensions (esm2_t6_8M_UR50D)
+Input,Number of tissues,14
+Input,Number of species,12
+ConvStem,Stage 1 (MultiScale),"Kernels 7,11,15,21 -> concat -> 128ch, pool 2x"
+ConvStem,Stage 2 (Transition),"Conv kernel=7, 128ch, pool 2x"
+ConvStem,Stage 3 (Dilated ResBlocks),"5 blocks, dilation 1,2,4,8,16, 128ch"
+ConvStem,Stages 4-7 (DownConv),"4x Conv+Pool, 128->256ch, pool 2x each"
+ConvStem,Total downsampling,64x (20000 -> 312 positions)
+Transformer,Layers,4
+Transformer,Attention heads,8
+Transformer,Model dimension,256
+Transformer,FFN dimension,512
+Transformer,Dropout,0.15
+RNA Tower,Architecture,16 -> 128 -> 64 (2-layer MLP)
+Protein Tower,ESM branch,320 -> 128 -> 64
+Protein Tower,Species embed fallback,64-d learnable embedding
+Fusion,Concatenation dim,256 + 64 + 64 = 384
+Fusion,Fusion MLP,384 -> 512 -> 256
+Output,Species-tissue bias,"nn.Embedding(12, 14), init=0"
+Output,Total parameters,~5.2M
+Training,Optimizer,"AdamW (beta1=0.9, beta2=0.999)"
+Training,Learning rate,1.5e-4 (peak)
+Training,LR schedule,Linear warmup 15 epochs + Cosine decay to 1e-7
+Training,Weight decay,0.01
+Training,Batch size,16
+Training,Max epochs,150
+Training,Early stopping patience,30 epochs
+Training,Gradient clipping,1.0 (max norm)
+Loss,MSE weight,1.0
+Loss,Pearson correlation weight,0.3
+Loss,Ortholog consistency weight,0.05
+Loss,Zero-expression sample weight,0.3
+Augmentation,Reverse complement,p=0.5
+Augmentation,TSS jitter,+/-200 bp (stochastic)
+Data Split,Method,5-mer frequency K-Means clustering (K=500)
+Data Split,Train/Val ratio,~80/20 (cluster-level)

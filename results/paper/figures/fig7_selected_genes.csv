@@ -1,0 +1,4 @@
+category,gene_id,species,gene_key,mean_expr,max_expr,tau,mae,n_valid_tissues,top_tissue
+high_expression,FBgn0066084,drosophila,drosophila|FBgn0066084,8.573675,9.3752,0.09326637395371919,3.0887249999999997,12,Adult_Ovary
+tissue_specific,JAMg_model_8518,lmig,lmig|JAMg_model_8518,1.4789999999999999,7.395,1.0,2.09972,5,Adult_Testis
+low_expression,FBgn0267259,drosophila,drosophila|FBgn0267259,0.0501,0.3017,0.9097538192665803,1.15175,12,Adult_Brain

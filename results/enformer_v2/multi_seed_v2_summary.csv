@@ -1,0 +1,4 @@
+seed,pearson,spearman,best_epoch
+42,0.6733,0.6787,128
+MEAN,0.6733,0.6787,-
+STD,0.0000,0.0000,-

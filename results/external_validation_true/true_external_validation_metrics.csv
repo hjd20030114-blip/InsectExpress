@@ -1,0 +1,4 @@
+species,display_name,expression_mode,n_samples_built,n_primary_tissues,overall_pearson,overall_spearman,gene_profile_pearson_mean,top1_tissue_match,source_note
+spodoptera_frugiperda,Spodoptera frugiperda,absolute,16308,3,0.541944827019141,0.5558786603581356,0.1059658989809786,0.47277409860191316,Independent RNA-seq TPM matrix aggregated from explicit control / untreated runs.
+anopheles_gambiae,Anopheles gambiae,relative,6390,6,0.05419707682670507,0.08134512044357385,0.10786386754005889,0.22045680238331677,Independent MozAtlas supplementary table with adult tissue-enrichment profiles.
+helicoverpa_armigera,Helicoverpa armigera,absolute,16749,7,0.6115891377894804,0.6490388737818764,0.38321638524405965,0.35082691503970387,Independent Helicoverpa armigera tissue-expression matrix aligned from local GEO-derived resources (including GSE190405 and GSE86914) after tissue harmonization.

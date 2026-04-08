@@ -1,0 +1,13 @@
+Species_ID,Latin_Name,Common_Name,Order,Genome_Assembly,Assembly_Name,Gene_Count,Tissues_Covered,Expression_Source,GEO_Accession
+tribolium,Tribolium castaneum,Red flour beetle,Coleoptera,GCF_000002335.3,Tcas5.2,14357,11,BeetleAtlas,-
+drosophila,Drosophila melanogaster,Fruit fly,Diptera,Release 6 (r6.66),BDGP6,17763,12,FlyBase FB2024_05,-
+silkworm,Bombyx mori,Silkworm,Lepidoptera,SilkDB 3.0,SilkDB_v3,14127,11,SilkDB 3.0,-
+pxyl,Plutella xylostella,Diamondback moth,Lepidoptera,GCF_932276165.1,ilPluXylo3.1,16229,4,NCBI SRA,GSE150559
+apis,Acyrthosiphon pisum,Pea aphid,Hemiptera,GCF_005508785.2,Acyr_2.0,20031,3,NCBI SRA,GSE42585
+nlug,Nilaparvata lugens,Brown planthopper,Hemiptera,GCF_014356525.1,NJAU_Nlug_1.0,21187,3,NCBI SRA,GSE113553
+lmig,Locusta migratoria,Migratory locust,Orthoptera,GCA_000516895.1,Lm_assembly2-2,21291,5,NCBI SRA,GSE123150; GSE78902
+harm,Helicoverpa armigera,Cotton bollworm,Lepidoptera,GCF_030705265.1,HaAG1,16926,7,NCBI SRA,GSE190405; GSE86914
+agla,Anoplophora glabripennis,Asian longhorned beetle,Coleoptera,GCF_000390285.2,Agla_2.0,16015,5,NCBI SRA,PRJNA803891
+ldec,Leptinotarsa decemlineata,Colorado potato beetle,Coleoptera,GCF_000500325.1,Ldec_2.0,16181,7,NCBI SRA,PRJNA714582; PRJNA803891
+focc,Frankliniella occidentalis,Western flower thrips,Thysanoptera,GCF_000697945.3,Focc_3.0,18005,4,NCBI SRA,PRJNA741784
+csup,Chilo suppressalis,Striped stem borer,Lepidoptera,GCA_004000445.1,ASM400044v1,15653,5,NCBI SRA,PRJNA321285

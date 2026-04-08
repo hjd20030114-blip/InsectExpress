@@ -1,0 +1,7 @@
+species,label,stage_key,stage,count
+spodoptera_frugiperda,S. frugiperda,n_expression_genes,Expression genes,16784
+spodoptera_frugiperda,S. frugiperda,n_genes_in_gff,Genes with GFF,16769
+spodoptera_frugiperda,S. frugiperda,n_samples_built,Evaluable genes,16308
+helicoverpa_armigera,H. armigera,n_expression_genes,Expression genes,16926
+helicoverpa_armigera,H. armigera,n_genes_in_gff,Genes with GFF,16749
+helicoverpa_armigera,H. armigera,n_samples_built,Evaluable genes,16749

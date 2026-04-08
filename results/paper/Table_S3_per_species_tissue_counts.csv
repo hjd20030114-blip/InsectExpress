@@ -1,0 +1,13 @@
+Species_ID,Latin_Name,Total_Genes,Adult_Brain,Adult_Head,Adult_Midgut,Adult_Hindgut,Adult_FatBody,Adult_MalpighianTubule,Adult_Carcass,Adult_Ovary,Adult_Testis,Larval_Hindgut,Larval_FatBody,Larval_MalpighianTubule,Larval_Midgut,Larval_Carcass
+tribolium,T. castaneum,14357,14357,14357,14357,14357,14357,14357,14357,NaN,NaN,14357,14357,NaN,14357,14357
+drosophila,D. melanogaster,17763,17763,17763,17763,17763,17763,17763,17763,17763,17763,NaN,17763,NaN,17763,17763
+silkworm,B. mori,14127,NaN,14127,14127,NaN,14127,14127,14127,14127,14127,NaN,14127,14127,14127,14127
+pxyl,P. xylostella,16229,16229,NaN,NaN,NaN,NaN,NaN,NaN,NaN,16229,NaN,NaN,NaN,16229,16229
+apis,A. pisum,20031,NaN,NaN,20031,NaN,20031,NaN,20031,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+nlug,N. lugens,21187,21187,NaN,NaN,NaN,21187,NaN,NaN,21187,NaN,NaN,NaN,NaN,NaN,NaN
+lmig,L. migratoria,21291,21291,21291,NaN,NaN,NaN,NaN,21291,21291,21291,NaN,NaN,NaN,NaN,NaN
+harm,H. armigera,16926,16926,16926,16926,NaN,16926,16926,16926,16926,NaN,NaN,NaN,NaN,NaN,NaN
+agla,A. glabripennis,16015,16015,NaN,16015,16015,16015,16015,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+ldec,L. decemlineata,16181,NaN,16181,NaN,16181,16181,NaN,16181,16181,16181,16181,NaN,NaN,NaN,NaN
+focc,F. occidentalis,18005,NaN,18005,NaN,NaN,NaN,NaN,18005,NaN,NaN,NaN,NaN,NaN,18005,18005
+csup,C. suppressalis,15653,NaN,15653,15653,NaN,15653,NaN,15653,NaN,NaN,NaN,NaN,NaN,15653,NaN

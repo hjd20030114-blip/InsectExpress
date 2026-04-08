@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.idea/
+.vscode/
+
+# Local runtime outputs
+logs/
+tmp/
+cache/
+
+# Do not commit extra large private data accidentally
+data/raw/
+data/intermediate/
