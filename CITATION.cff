@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "InsectExpress"
+message: "If you use this repository, please cite the InsectExpress manuscript and the GitHub release."
+type: software
+authors:
+  - family-names: "HJD"
+    given-names: ""
+repository-code: "https://github.com/hjd20030114-blip/InsectExpress"
+license: "Other"
+abstract: "InsectExpress is a multimodal framework for cross-species prediction of tissue-resolved gene expression in insects."
+keywords:
+  - insect gene expression
+  - cross-species prediction
+  - multimodal deep learning
+  - tissue-resolved expression
+  - RNA stability
+  - protein embeddings
+  - RNAi target prioritization

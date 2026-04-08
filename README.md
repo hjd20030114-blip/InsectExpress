@@ -2,47 +2,66 @@
 
 InsectExpress is a multimodal framework for cross-species prediction of tissue-resolved gene expression in insects.
 
-This repository is the public English companion release for the InsectExpress manuscript. It contains:
+This repository is the English public companion release for the InsectExpress manuscript and includes the released model checkpoint, processed paper-facing data tables, exported figures, supplementary tables, and figure-generation scripts.
 
-- the manuscript draft used for the paper submission package
-- processed aligned expression matrices used in the released analyses
-- the main model checkpoint
-- figure-generation scripts used for the paper figures
-- exported figures, supplementary tables, and validation summaries
+## Highlights
+
+- Multimodal prediction from promoter-centered DNA sequence, RNA stability features, and ESM-derived protein representations
+- Tissue-resolved modeling across 14 standardized tissues
+- Cross-species benchmark spanning 12 insect species
+- Released paper-facing external validation package for `Spodoptera frugiperda` and `Helicoverpa armigera`
+- Companion package with manuscript, figures, benchmark summaries, and released checkpoint
+
+## Preview
+
+<div align="center">
+  <img src="results/paper/figures/fig1c_architecture.png" alt="InsectExpress architecture" width="46%">
+  <img src="results/paper/figures/fig2_v2_benchmark.png" alt="InsectExpress benchmark" width="46%">
+</div>
+
+## Quick links
+
+- Manuscript: `manuscript/InsectExpress_manuscript.docx`
+- Main checkpoint: `models/insectexpress_seed42_checkpoint.pt`
+- Main paper figures: `results/paper/figures/`
+- Supplementary tables: `results/paper/Table_S1_species_genome_info.csv` to `results/paper/Table_S4_model_hyperparameters.csv`
+- External validation release: `results/external_validation_true/`
+- Figure scripts: `scripts/paper/`
+- Release notes: `docs/release_notes_v1.md`
 
 ## Repository layout
 
-- `manuscript/`: manuscript files
-- `scripts/paper/`: figure-generation scripts used in the paper companion release
-- `data/processed/`: released processed expression matrices in aligned tissue space
-- `models/`: released pretrained checkpoint
-- `results/paper/`: main paper tables and figures
-- `results/enformer_v2/`: selected model summaries and multi-seed outputs
-- `results/external_validation_true/`: released external-validation outputs
-- `docs/`: repository notes and data descriptions
-
-## Included assets
-
-- Main manuscript: `manuscript/InsectExpress_manuscript.docx`
-- Main checkpoint: `models/insectexpress_seed42_checkpoint.pt`
-- Supplementary tables: `results/paper/Table_S1_species_genome_info.csv` to `Table_S4_model_hyperparameters.csv`
-- Main and supplementary figures: `results/paper/figures/`
-- Multi-seed summary and figures: `results/enformer_v2/`
-- External validation prediction exports and audit summaries: `results/external_validation_true/`
+- `manuscript/`
+  - manuscript files used in the release snapshot
+- `scripts/paper/`
+  - figure-generation scripts and shared evaluation helpers
+- `data/processed/`
+  - released aligned expression matrices in standardized tissue space
+- `models/`
+  - released pretrained checkpoint
+- `results/paper/`
+  - paper tables and exported main/supplementary figures
+- `results/enformer_v2/`
+  - selected released summaries for the main model and multi-seed analyses
+- `results/external_validation_true/`
+  - released external-validation outputs
+- `docs/`
+  - repository notes and release documentation
 
 ## Scope of this release
 
 This GitHub repository is a processed-data and paper-assets release. It does not include the full raw-data acquisition pipeline, raw genome archives, raw RNA-seq reads, or the largest intermediate tensors generated during interpretability analysis.
 
-Large internal files intentionally excluded from this GitHub release include:
+Intentionally excluded assets include:
 
 - raw sequencing inputs and genome assemblies
-- precomputed internal attention tensors larger than the GitHub file-size limit
-- heavy intermediate bundles not required to inspect the released figures
+- very large internal attention or interpretability tensors
+- temporary intermediate bundles not required to inspect the released figures
+- unrelated lethality-project assets
 
 ## Software environment
 
-The paper figures and released scripts were prepared in the following environment:
+The released scripts and paper assets were prepared in the following environment:
 
 - Python 3.10.12
 - PyTorch 2.7.1+cu118
@@ -57,7 +76,7 @@ See `requirements.txt` for the pinned package versions used in this release snap
 
 ## Reproducing released figures
 
-The scripts in `scripts/paper/` are intended for regeneration of the released paper figures from the exported processed tables and result files in this repository. Most scripts write outputs into `results/paper/figures/` relative to the repository root.
+The scripts in `scripts/paper/` are intended to regenerate the released paper figures from the exported processed tables and result files included in this repository. Most scripts write outputs into `results/paper/figures/` relative to the repository root.
 
 Example:
 
@@ -66,7 +85,22 @@ python scripts/paper/plot_fig6_ism_interpretability.py
 python scripts/paper/plot_fig_external_validation_true.py
 ```
 
+## Citation
+
+GitHub citation metadata is provided in `CITATION.cff`.
+
+If you use this repository, please cite:
+
+```text
+InsectExpress: multimodal cross-species prediction of tissue-resolved gene expression in insects.
+GitHub repository: https://github.com/hjd20030114-blip/InsectExpress
+```
+
+## License
+
+This repository currently uses a research-release license with all rights reserved unless a future revision replaces it. See `LICENSE`.
+
 ## Notes
 
 - All public file and directory names in this repository use English naming.
-- This repository release is focused on the InsectExpress expression-prediction project and excludes unrelated lethality-project assets.
+- This repository is focused on the InsectExpress expression-prediction project only.

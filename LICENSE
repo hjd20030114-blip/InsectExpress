@@ -1,0 +1,48 @@
+InsectExpress Research Release License
+Copyright (c) 2026 HJD and contributors
+All rights reserved.
+
+This repository is released as a public research companion package for the
+InsectExpress manuscript. Unless a later version of this repository replaces
+this file with a different license, the following terms apply.
+
+1. Permitted use
+
+You may:
+
+- view and download the repository contents for personal, academic, and
+  non-commercial research use
+- inspect the released code, figures, processed tables, and model outputs for
+  manuscript review and reproducibility assessment
+- cite the repository and manuscript in academic work
+
+2. Restrictions
+
+You may not, without prior written permission from the copyright holder:
+
+- redistribute the repository contents in whole or in part
+- sublicense, sell, or commercially exploit the code, processed data, figures,
+  or model weights
+- use the released materials to provide a commercial service
+- use the model weights or repository assets to train, fine-tune, or package a
+  commercial product
+
+3. Third-party data and resources
+
+This repository contains derived outputs based on public external resources.
+Those upstream resources remain subject to their original terms, database
+policies, and licenses. This license does not override any third-party rights.
+
+4. No warranty
+
+The repository is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and non-infringement. In no event shall the
+authors or copyright holders be liable for any claim, damages, or other
+liability arising from, out of, or in connection with the repository or the use
+of the repository.
+
+5. Contact
+
+For reuse requests, redistribution requests, or commercial licensing inquiries,
+please contact the repository owner.
